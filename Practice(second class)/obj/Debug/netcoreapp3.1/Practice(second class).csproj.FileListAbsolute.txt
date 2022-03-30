@@ -12,3 +12,16 @@ C:\Users\tu7ekdm78\Desktop\Practice\Practice(second class)\Practice(second class
 C:\Users\tu7ekdm78\Desktop\Practice\Practice(second class)\Practice(second class)\obj\Debug\netcoreapp3.1\Practice(second class).dll
 C:\Users\tu7ekdm78\Desktop\Practice\Practice(second class)\Practice(second class)\obj\Debug\netcoreapp3.1\Practice(second class).pdb
 C:\Users\tu7ekdm78\Desktop\Practice\Practice(second class)\Practice(second class)\obj\Debug\netcoreapp3.1\Practice(second class).genruntimeconfig.cache
+C:\Users\admin\OneDrive\İş masası\Taskcc\Practice(second class)\bin\Debug\netcoreapp3.1\Practice(second class).exe
+C:\Users\admin\OneDrive\İş masası\Taskcc\Practice(second class)\bin\Debug\netcoreapp3.1\Practice(second class).deps.json
+C:\Users\admin\OneDrive\İş masası\Taskcc\Practice(second class)\bin\Debug\netcoreapp3.1\Practice(second class).runtimeconfig.json
+C:\Users\admin\OneDrive\İş masası\Taskcc\Practice(second class)\bin\Debug\netcoreapp3.1\Practice(second class).runtimeconfig.dev.json
+C:\Users\admin\OneDrive\İş masası\Taskcc\Practice(second class)\bin\Debug\netcoreapp3.1\Practice(second class).dll
+C:\Users\admin\OneDrive\İş masası\Taskcc\Practice(second class)\bin\Debug\netcoreapp3.1\Practice(second class).pdb
+C:\Users\admin\OneDrive\İş masası\Taskcc\Practice(second class)\obj\Debug\netcoreapp3.1\Practice(second class).csprojAssemblyReference.cache
+C:\Users\admin\OneDrive\İş masası\Taskcc\Practice(second class)\obj\Debug\netcoreapp3.1\Practice(second class).AssemblyInfoInputs.cache
+C:\Users\admin\OneDrive\İş masası\Taskcc\Practice(second class)\obj\Debug\netcoreapp3.1\Practice(second class).AssemblyInfo.cs
+C:\Users\admin\OneDrive\İş masası\Taskcc\Practice(second class)\obj\Debug\netcoreapp3.1\Practice(second class).csproj.CoreCompileInputs.cache
+C:\Users\admin\OneDrive\İş masası\Taskcc\Practice(second class)\obj\Debug\netcoreapp3.1\Practice(second class).dll
+C:\Users\admin\OneDrive\İş masası\Taskcc\Practice(second class)\obj\Debug\netcoreapp3.1\Practice(second class).pdb
+C:\Users\admin\OneDrive\İş masası\Taskcc\Practice(second class)\obj\Debug\netcoreapp3.1\Practice(second class).genruntimeconfig.cache

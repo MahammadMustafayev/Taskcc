@@ -4,19 +4,42 @@ using System.Text;
 
 namespace Practice_second_class_.Models
 {
-    class Word:IPrintablefile
-    {
-        public int WordCount { get; set; }
-        public string FileName { get; set; }
+    #region Non-Generic
+    //class Word :IPrintablefile
+    //{
+    //    public int WordCount { get; set; }
+    //    public string FileName { get; set; }
 
-        public Word(int wordCount)
-        {
-            WordCount = wordCount;
-        }
+    //    public Word(string fileName,int wordCount)
+    //    {
+    //        FileName = fileName;
+    //        WordCount = wordCount;
+    //    }
 
-        public void Print()
+    //    public void Print()
+    //    {
+    //        Console.WriteLine($"FileName:{FileName} WordCount:{WordCount}");
+    //    }
+    //}
+        #endregion
+        #region Generic
+        class Word<T,U> : IPrintablefile
         {
-            Console.WriteLine($"WordCount:{WordCount}");
+            public T WordCount { get; set; }
+            public U FileName { get; set; }
+        string IPrintablefile.FileName { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
+        public Word(U fileName, T wordCount)
+            {
+                FileName = fileName;
+                WordCount = wordCount;
+            }
+
+            public void Print()
+            {
+                Console.WriteLine($"FileName:{FileName} WordCount:{WordCount}");
+            }
         }
+        #endregion
     }
-}
+
