@@ -8,19 +8,25 @@ namespace Practice_second_class_
         static void Main(string[] args)
         {
             #region Non-Generic
-            Excel excel = new Excel("Text.txt",100,10);
-            Word word = new Word("Word", 100);
-            Pdf pdf = new Pdf("PdfDocument", 120);
-            new PrintFile(excel);
-            new PrintFile(word);
-            new PrintFile(pdf);
-            Console.WriteLine("----------------------------");
+            //Excel excel = new Excel("Text.txt",100,10);
+            //Word word = new Word("Word", 100);
+            //Pdf pdf = new Pdf("PdfDocument", 120);
+            //new PrintFile(excel);
+            //new PrintFile(word);
+            //new PrintFile(pdf);
+            //Console.WriteLine("----------------------------");
             #endregion
             #region Generic
-            PrintFileGeneric<IPrintablefile> printfilegeneric = new PrintFileGeneric<IPrintablefile>();
+            Excel excel = new Excel("Text.txt", 100, 10);
+            Word word = new Word("Word", 100);
+            Pdf pdf = new Pdf("PdfDocument", 120);
+            PrintFileGeneric<Word> printfilegeneric = new PrintFileGeneric<Word>();
+            PrintFileGeneric<Pdf> printfilegeneric2 = new PrintFileGeneric<Pdf>();
+            PrintFileGeneric<Excel> printfilegeneric3 = new PrintFileGeneric<Excel>();
             printfilegeneric.Print(word);
-            printfilegeneric.Print(pdf);
-            printfilegeneric.Print(excel);
+            printfilegeneric2.Print(pdf);
+            printfilegeneric3.Print(excel);
+           
             #endregion
 
         }
